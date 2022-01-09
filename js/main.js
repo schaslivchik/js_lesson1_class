@@ -56,7 +56,7 @@
 //     break;
 // }
 
-const userAge = Number(prompt("Введите возвравст "));
+// const userAge = Number(prompt("Введите возвравст "));
 
-const access = userAge >= 18 ? "has access" : "hasn't access";
-alert(access);
+// const access = userAge >= 18 ? "has access" : "hasn't access";
+// alert(access);
