@@ -34,24 +34,29 @@
 //     break;
 // }
 
-const userNumber1 = Number(prompt("Введите первое число  "));
-const operation = prompt("Введите операцию +, -, /, % ");
-const userNumber2 = Number(prompt("Введите второе число  "));
+// const userNumber1 = Number(prompt("Введите первое число  "));
+// const operation = prompt("Введите операцию +, -, /, % ");
+// const userNumber2 = Number(prompt("Введите второе число  "));
 
-switch (operation) {
-  case "+":
-    console.log("Результат= " + (userNumber1 + userNumber2));
-    break;
-  case "-":
-    console.log("Результат= " + userNumber1 - userNumber2);
-    break;
-  case "/":
-    console.log("Результат= " + userNumber1 / userNumber2);
-    break;
-  case "%":
-    console.log("Результат= " + (userNumber1 % userNumber2));
-    break;
-  default:
-    console.log("fatal ERROR");
-    break;
-}
+// switch (operation) {
+//   case "+":
+//     console.log("Результат= " + (userNumber1 + userNumber2));
+//     break;
+//   case "-":
+//     console.log("Результат= " + userNumber1 - userNumber2);
+//     break;
+//   case "/":
+//     console.log("Результат= " + userNumber1 / userNumber2);
+//     break;
+//   case "%":
+//     console.log("Результат= " + (userNumber1 % userNumber2));
+//     break;
+//   default:
+//     console.log("fatal ERROR");
+//     break;
+// }
+
+const userAge = Number(prompt("Введите возвравст "));
+
+const access = userAge >= 18 ? "has access" : "hasn't access";
+alert(access);
