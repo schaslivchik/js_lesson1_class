@@ -63,9 +63,25 @@
 // } while (startValue++ <= finishValue);
 // console.log("wrong year");
 
-// for (let i = 1; i <= 9; i++) {
+// for (let i = 1; i <= 10; i++) {
 //   console.log("----------");
-//   for (let j = 1; j <= 9; j++) {
+//   for (let j = 1; j <= 10; j++) {
 //     console.log(`${i} x ${j} = ${i * j}`);
 //   }
 // }
+
+// const TRY_LIMIT = 3;
+// const PASSWORD = "qwerty";
+// let currentTry = 1;
+// let isPasswordCorrect = false;
+
+// do {
+//   const userIputPassvord = prompt("Input password");
+//   isPasswordCorrect = PASSWORD === userIputPassvord;
+//   if (isPasswordCorrect) {
+//     alert("True");
+//     break;
+//   }
+// } while (++currentTry <= TRY_LIMIT);
+
+// console.log(`${isPasswordCorrect ? "incorectn" : "wrong"}`);
