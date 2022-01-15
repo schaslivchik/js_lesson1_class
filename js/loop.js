@@ -31,10 +31,41 @@
 // }
 // console.log(sum);
 
-let akk = 1;
-for (let i = 1; i <= 10; i++) {
-  if (i % 5 === 0) {
-    akk *= i;
-    console.log(akk);
-  }
-}
+// let akk = 1;
+// for (let i = 1; i <= 10; i++) {
+//   if (i % 5 === 0) {
+//     akk *= i;
+//     console.log(akk);
+//   }
+// }
+// const expectedValue = 6;
+// let userValue = null;
+
+// do {
+//   userValue = Number(prompt("посчитайет 2+2*2"));
+// } while (userValue !== expectedValue);
+
+// alert("Your are right!");
+
+// let startValue = Number(prompt("Enter start year"));
+// const finishValue = Number(prompt("Enter finish year"));
+
+// for (let i = startValue; i <= finishValue; i++) {
+//   if (i % 4 === 0) {
+//     console.log(i);
+//   }
+// }
+
+// do {
+//   if (startValue % 4 === 0 && startValue < finishValue) {
+//     console.log(startValue);
+//   }
+// } while (startValue++ <= finishValue);
+// console.log("wrong year");
+
+// for (let i = 1; i <= 9; i++) {
+//   console.log("----------");
+//   for (let j = 1; j <= 9; j++) {
+//     console.log(`${i} x ${j} = ${i * j}`);
+//   }
+// }
