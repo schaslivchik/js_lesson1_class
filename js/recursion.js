@@ -7,7 +7,7 @@ function facktorial(n) {
   return n * facktorial(n - 1);
 }
 
-/******************** */
+/*****************************/
 
 function bracketWrapperString(n) {
   const brackets = [];
